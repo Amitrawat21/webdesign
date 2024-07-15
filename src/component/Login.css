@@ -1,0 +1,131 @@
+/* Existing styles */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_container {
+    width: 60%;
+    height: 95%;
+    background-color: rgb(96, 137, 138);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+}
+
+.form_container {
+    background-color: brown;
+    width: 690px;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/587/345/original/character-flat-drawing-businessman-looking-from-behind-open-door-happy-man-peeking-of-door-and-wave-hands-cheerful-male-standing-in-doorway-waiting-guest-to-come-cartoon-design-illustration-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    gap: 10px;
+ 
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(254, 254, 254);
+    padding: 15px;
+    width: 220px;
+    border-radius: 6px;
+}
+
+.login_form_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px -4px rgba(246, 215, 112, 0.954);
+}
+
+.login_form_top .first-child {
+    color: rgb(246, 196, 103);
+    font-weight: 800;
+    font-size: 11px;
+}
+
+.login_form_top .second-child {
+    color: rgb(220, 220, 220);
+    font-weight: 800;
+    font-size: 11px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+input {
+    width: 117%;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(249, 249, 249);
+    outline: none;
+    padding: 6px;
+}
+
+input::placeholder {
+    color: rgb(216, 216, 216);
+}
+
+input:focus {
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    background-color: white;
+}
+
+button {
+    height: 40px;
+    background-color: rgb(67, 80, 95);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 15px;
+}
+
+.bottom p {
+    margin: 0; /* Remove default margin */
+    padding: 2px 0; /* Adjust padding if needed */
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottom p:first-child{
+    color: white;
+}
+
+.bottom p:last-child{
+    color: rgb(69, 85, 85);
+}
